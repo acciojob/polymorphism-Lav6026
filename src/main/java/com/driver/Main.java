@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args){
         Product p=new Product();
-        p.product(x,y);
-        p.product(x,y,z);
-        p.product(x,y);
+
+        p.product(5,10);
+        p.product(5,10,15);
+        p.product(5.32,6.45);
 
 
     }
